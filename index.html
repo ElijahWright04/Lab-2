@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native Plant App - Purple Coneflower</title>
+</head>
+<body>
+
+    <header>
+        <h1>Native Plant App</h1>
+        <p>Biology Department Field Guide Prototype</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#plant-info">Plant Profile</a></li>
+            <li><a href="#submit-form">Submit Plant</a></li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <section id="plant-info">
+            <h2>Featured Native Plant</h2>
+            
+            <article>
+                <h3>Purple Coneflower</h3>
+                <p><b>Scientific Name:</b> <i>Echinacea purpurea</i></p>
+                
+                <img src="images/coneflower.jpg" alt="A purple coneflower blooming in a field" width="300">
+
+                <p><b>Description:</b> A hardy perennial wildflower famous for its bright purple petals that gracefully droop away from a prominent, spiky brownish-orange central cone.</p>
+
+                <ul>
+                    <li><b>Native Range:</b> Eastern and central North America</li>
+                    <li><b>Sunlight Requirements:</b> Full sun to partial shade</li>
+                    <li><b>Soil Requirements:</b> Well-drained, average to loamy soil</li>
+                    <li><b>Water Requirements:</b> Low to moderate (drought-tolerant once established)</li>
+                    <li><b>Blooming Season:</b> Summer to early autumn (June to September)</li>
+                    <li><b>Wildlife Benefits:</b> Highly attractive to native bees, butterflies, and goldfinches that feed on the seeds.</li>
+                    <li><b>Plant Height:</b> 2 to 4 feet tall</li>
+                </ul>
+
+                <p>For additional botanical details, visit the <a href="https://www.wildflower.org/" target="_blank">Lady Bird Johnson Wildflower Center</a>.</p>
+            </article>
+        </section>
+
+        <section id="submit-form">
+            <h2>Challenge: Submit a New Plant</h2>
+            <p>Know of another native plant? Add its details to our database below:</p>
+            
+            <form action="#" method="POST">
+                <p>
+                    <label for="common-name">Plant Common Name:</label><br>
+                    <input type="text" id="common-name" name="common_name">
+                </p>
+                
+                <p>
+                    <label for="sci-name">Scientific Name:</label><br>
+                    <input type="text" id="sci-name" name="scientific_name">
+                </p>
+
+                <p>
+                    <label for="desc">Short Description:</label><br>
+                    <textarea id="desc" name="description" rows="3" cols="30"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit Plant Info">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Biology Department | Native Plant App Project</p>
+    </footer>
+
+</body>
+</html>
